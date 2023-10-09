@@ -1,0 +1,85 @@
+.navbar-default {
+    background-color: #fff; /* Initial background color */
+}
+
+.navbar-scroll {
+    background-color: #c4c008; /* Color on scroll */
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Adjust padding as needed */
+}
+
+.location-1 {
+    margin: 10px;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/beautiful-aerial-view-of-bagrati-cathedral-in-kutaisi-city-in-georgia--1188643337-8638e92398e84326a385d921d66f984d.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Adjust padding as needed */
+}
+
+.location-2 {
+    margin: 10px;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/tbilisi-night-GettyRF.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Adjust padding as needed */
+}
+
+.location-3 {
+    margin: 10px;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/a6219e5d5c12192b9e02daee532bbff5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Adjust padding as needed */
+}
+
+@media (max-width: 660px) {
+    #services .container:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #services .container:nth-child(2) div {
+        width: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    #services .container:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #services .container:nth-child(2) div {
+        width: 100%;
+    }
+}
